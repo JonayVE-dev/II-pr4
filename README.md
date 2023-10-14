@@ -50,4 +50,7 @@ Script Sender: [Sender.cs](scripts/ejer5/ejer5_respuesta.cs)
 
 ![Ejercicio6](gifs/Ejercicio6.gif)
 
+Script Listener: [Listener.cs](scripts/ejer6/ejer6_notificador.cs)
+Script Sender: [Sender.cs](scripts/ejer6/ejer6_respuesta.cs)
+
 ---

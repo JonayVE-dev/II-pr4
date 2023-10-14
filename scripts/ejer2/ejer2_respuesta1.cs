@@ -24,6 +24,6 @@ public class Ejer2Respuesta2 : MonoBehaviour
     void Move()
     {
         Vector3 moveDirection = target.transform.position - transform.position;
-        gameObject.GetComponent<Transform>().Translate(moveDirection.normalized * speed * Time.deltaTime);
+        gameObject.GetComponent<Rigidbody>().MovePosition(transform.position + moveDirection.normalized * speed * Time.deltaTime);
     }
 }

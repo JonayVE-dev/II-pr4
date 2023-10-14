@@ -12,7 +12,7 @@ public class Notificador4 : MonoBehaviour
         if (collision.gameObject.tag == "group1" && onIncreseScore != null) {
             onIncreseScore(5);
             Destroy(collision.gameObject);
-        } else if (collision.gameObject.tag == "group2 " && onIncreseScore != null) {
+        } else if (collision.gameObject.tag == "group2" && onIncreseScore != null) {
             onIncreseScore(10);
             Destroy(collision.gameObject);
         }
